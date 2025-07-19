@@ -1,0 +1,32 @@
+{
+	"id": "H5B36081B",
+	"name": "HelloWorld",
+	"version": {
+		"name": "1.0",
+		"code": "1"
+	},
+	"description": "一个简单的5+ App示例",
+	"icons": {
+		"72": "icon.png"
+	},
+	"launch_path": "index.html",
+	"developer": {
+		"name": "YourName",
+		"email": "your-email@example.com",
+		"url": "http://www.example.com"
+	},
+	"permissions": {
+		"Accelerometer": {
+			"description": "访问加速度感应器"
+		},
+		"Audio": {
+			"description": "访问麦克风"
+		}
+	},
+	"plus": {
+		"splashscreen": {
+			"autoclose": true,
+			"waiting": true
+		}
+	}
+}
